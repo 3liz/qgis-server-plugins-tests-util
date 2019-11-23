@@ -2,6 +2,10 @@
 
 This is a "standard" set up for running tests for Qgis server plugins
 
+This setup run tests inside a Qgis platform Docker container: https://hub.docker.com/r/3liz/qgis-platform, so you can choose the version of the platform to test your plugin against. 
+
+The test use a image named `qgis_platform:<whatever_version>`, if you pull an image from the 3liz repository on dockerhub you will have to  retag it from `3liz/qgis_platform:XXX` to `qgis_platform:XXX`  or define the variable `REGISTRY_URL=3liz` when runnin tests.
+
 ## Install test suite in your repository
 
 This is a suggestion for organizing your plugin source repository, you can
