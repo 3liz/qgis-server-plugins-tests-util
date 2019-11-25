@@ -1,0 +1,25 @@
+[general]
+name=sample
+qgisMinimumVersion=3.0
+description=Sample server plugin
+version=2.0.0
+author=3Liz
+email=info@3liz.com
+server=True
+
+about=Sample server for tests
+
+tracker=https://github.com/3liz/qgis-server-plugin-tests-utils/issues
+repository=https://github.com/3liz/qgis-server-plugin-tests-utils
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=server, tests
+
+homepage=https://github.com/3liz/qgis-server-plugin-tests-utils
+category=Plugins
+experimental=True
+deprecated=False
+

@@ -108,6 +108,7 @@ def client(request):
     class _Client:
 
         def __init__(self) -> None:
+
             self.fontFamily = QgsFontUtils.standardTestFontFamily()
             QgsFontUtils.loadStandardTestFonts(['All'])
 

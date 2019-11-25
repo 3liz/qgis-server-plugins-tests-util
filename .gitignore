@@ -1,0 +1,7 @@
+
+.cache
+.local
+__output__
+__pycache__
+*.pyc
+

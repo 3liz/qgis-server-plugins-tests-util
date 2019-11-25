@@ -1,0 +1,9 @@
+stages:
+- tests
+
+test:
+  stage: tests
+  script:
+    - make -C tests
+  tags:
+    - factory
