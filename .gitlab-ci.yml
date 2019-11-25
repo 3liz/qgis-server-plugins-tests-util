@@ -1,9 +1,16 @@
 stages:
 - tests
 
-test:
+test:ltr:
   stage: tests
   script:
-    - make -C tests
+    - make -C tests FLAVOR=ltr
+  tags:
+    - factory
+
+test:release:
+  stage: tests
+  script:
+    - make -C tests FLAVOR=release
   tags:
     - factory
