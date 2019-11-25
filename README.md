@@ -35,10 +35,6 @@ In the default configuration, the repository is expected to organized as follow:
 │   ├── __init__.py
 │   ├── metadata.txt
 │   └── ...
-├── .lizcloud/
-|       ├── fabric.mk
-|       ├── factory.mk
-|       ├── metadata_key
 └── tests
      ├── Makefile
      ├── conftest.py
