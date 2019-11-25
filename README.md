@@ -45,7 +45,7 @@ In the default configuration, the repository is expected to organized as follow:
      ├── pytest.ini
      ├── requirements.txt
      ├── run-tests.sh
-     ├── data/PUT_YOUR_TEST_DATE_HERE
+     ├── data/PUT_YOUR_TEST_DATA_HERE
      └── ...PUT_YOUR_TESTS_HERE
 ```
 
