@@ -7,7 +7,8 @@ so you can choose the version of the platform to test your plugin against.
 
 The test use a image named `qgis_platform:<whatever_version>`, if you pull an image from the 3liz
 repository on dockerhub you will have to  retag it from `3liz/qgis_platform:XXX` to `qgis_platform:XXX` or
-define the variable `REGISTRY_URL=3liz` when runnin tests.
+define the variable `REGISTRY_URL=3liz` when running tests.
+``` tests
 
 ## Running your tests
 
